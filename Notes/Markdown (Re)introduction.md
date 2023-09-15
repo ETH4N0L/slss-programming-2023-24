@@ -1,3 +1,10 @@
+---
+tags:
+  - notes
+  - slss
+  - 2O23
+  - programming-level-2
+---
 # Headings
 We create headings in markdown using hash (#) symbols
 To create subheadings, we can use multiple hash symbols
