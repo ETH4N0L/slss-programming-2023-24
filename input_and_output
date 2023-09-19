@@ -1,0 +1,7 @@
+# Input and Out put
+# Author: Ethan C
+# Date: Sept 19, 2023
+
+# Output a quote from someone famous
+print("Git is Google Drive on caffeine. --Ubial, probably")
+print("I do not wish my worst enemies Mr Wang's class. --Ethan, definitely")
