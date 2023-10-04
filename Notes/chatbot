@@ -1,0 +1,47 @@
+# Chatbot
+# Author: Ubial
+# Date: 20 September 2023
+
+import random
+import time
+
+# Greet the user
+print("Hello mate!")
+time.sleep(1.5)
+print("I'm ChatGBT, ChatGPT's British Cousin. I'm glad to be present to dilly-dally with such a distinguished indivisual such as yourself.")
+time.sleep(4)
+
+# Get the user's name and store it in a variable
+user_name = input("Do tell... what is your allias? ")
+
+# Respond with the user's name in a friendly way
+print(f"Fancy to meet you, {user_name}.")
+time.sleep(1.5)
+# Ask the user what theire favourite food is
+fave_food = input(f"If you don't mind me asking, what is your most favoured subsistence {user_name}. In other words, your favourite food? ")
+
+# If their favourite food is sushi, reply with yum.
+if fave_food == "sushi": 
+    print ("Yummy yummy in my tummy! 🍣")
+    print ("I love looking at sushi!")
+elif fave_food == "burgers" or fave_food == "Burgers":
+    print ("🍔")
+    print ("I heard they're good.")
+else:
+    # Create a list of possible responses
+    list_of_food_responses = [
+        f"Bloody hell, {fave_food}? That is sincerely abominable, {user_name}.",
+        f"Hmmm. Interesting choice mate. I do fancy a bit of {fave_food} myself.",
+        "I heard they're delicious but I've never attempted it.",
+        "Well, you're a quite boring lad. That's a bit basic innit?",
+        "Okay."
+    ]
+
+# Print out selected response
+print(list_of_food_responses[3])
+
+# Choose one of those responses randomly
+random_food_response = random.choice(list_of_food_responses)
+
+# Print out that chosen response
+print(random_food_response)
