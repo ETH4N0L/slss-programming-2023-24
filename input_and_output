@@ -5,3 +5,11 @@
 # Output a quote from someone famous
 print("Git is Google Drive on caffeine. --Ubial, probably")
 print("I do not wish my worst enemies Mr Wang's class. --Ethan, definitely")
+
+# Ask a question to the user running our app
+favourite_food = input("What's your favourite food? ")
+
+print(favourite_food)
+
+# Respond with something a human would say
+print(f"I didn't ask. Fuck you and your {favourite_food}s.")
