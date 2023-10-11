@@ -20,24 +20,12 @@
             }
           },
           {
-            "id": "c9e888e4bb1d775f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Natural Language Processing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "69c9c9cce375dd5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boolean.md",
+                "file": "Syntax errors.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c9e888e4bb1d775f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Natural Language Processing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "15e17ea7c42cf01a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Natural Language Processing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,12 +97,24 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:programming-level-2",
+                "query": "tag:#2O23",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6831692b4eeeeb89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -186,11 +210,18 @@
   },
   "active": "c9e888e4bb1d775f",
   "lastOpenFiles": [
-    "Boolean.md",
+    "loop_practice_py",
     "Conditionals.md",
+    "Syntax errors.md",
+    "Untitled 1.canvas",
+    "2023-10-10.md",
+    "Boolean.md",
     "Natural Language Processing.md",
-    "2023-09-27.md",
     "Markdown (Re)introduction.md",
+    "String Methods.md",
+    "Untitled.md",
+    "Untitled.canvas",
+    "2023-09-27.md",
     "warmup.py",
     "warmup",
     "chatbot",
