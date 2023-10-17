@@ -13,7 +13,7 @@ list_of_food_responses = [
 # Choose one of those responses randomly
 random_food_response = random.choice(list_of_food_responses)
 
-print("I am Crudebot, here to lower my IQ talking with a dummy like you.")
+print("I am Crudebot, here to lower my IQ talking to a dummy like you.")
 time.sleep(1.5)
 user_name = input("What's your name bud? ")
 print(f"Okay {user_name}, what's your favourite food?")
@@ -21,7 +21,7 @@ fave_food = input("Don't worry, I WILL judge your tastes. ")
 
 if fave_food == "Sushi" or fave_food == "sushi":
     print ("Ew, you like raw fish? What's wrong with you?")
-elif fave_food == "burgers" or fave_food == "Burgers":
+elif fave_food == "burgers" or fave_food == "Burgers" or fave_food == "burger" or fave_food == "Burger":
     print ("Okay fatty. Tell you what, go on a run right now and I'll give you a Big Mac.")
 else:
     # Create a list of possible responses
