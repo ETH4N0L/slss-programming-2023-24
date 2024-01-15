@@ -12,4 +12,4 @@ favourite_food = input("What's your favourite food? ")
 print(favourite_food)
 
 # Respond with something a human would say
-print(f"I didn't ask. Fuck you and your {favourite_food}s.")
+print(f"I didn't ask. Screw you and your {favourite_food}s.")

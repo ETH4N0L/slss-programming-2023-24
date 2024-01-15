@@ -32,7 +32,7 @@ We can fix the example above in this way:
 intro_string = "My age is"
 my_age = 17
 
-print(intro_string + str(my+age))
-print(intro_string + " " + str(my_age))
-
+print(intro_string + str(my+age))        # "My age is 17"
+print(intro_string + " " + str(my_age)). #
+print(f"{intro_string}{my_age}")
 ```

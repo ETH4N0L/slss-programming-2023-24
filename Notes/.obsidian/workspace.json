@@ -66,9 +66,67 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e2afbdb91bbd257b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numbers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40f1b661bb14ec72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recommendation Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a2acf08125347fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c9f31c89652ee36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c5522b08c991ead3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -92,6 +150,14 @@
             }
           },
           {
+            "id": "b0c8b9416c08fb68",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
             "id": "f8c64dcceb470b3c",
             "type": "leaf",
             "state": {
@@ -105,16 +171,9 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "b0c8b9416c08fb68",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -134,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Type.md",
+                "file": "Recursions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Type.md",
+                "file": "Recursions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Type.md"
+                "file": "Recursions.md"
               }
             }
           }
@@ -195,31 +254,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e821293e5dec8c8a",
+  "active": "c5522b08c991ead3",
   "lastOpenFiles": [
-    "Bubble tea",
-    "Natural Language Processing.md",
+    "Recursions.md",
+    "Functions.md",
+    "Recommendation Systems.md",
+    "sfus_best_sim_score.py",
+    "sfus_best_sim_score",
+    "similarity_score.py",
+    "similarity_score",
+    "data.csv",
+    "mcdonalds.py",
+    "Numbers Problems Delivery.md",
+    "Olympic_judging.py",
+    "age_in_2049.py",
+    "future.py",
+    "World_Traveller_Bot.py",
+    "Numbers.md",
     "Type.md",
-    "test.py",
-    "starwarsbot.py",
-    "starwarsbot_py",
-    "starwarsbot.md",
-    "Markdown (Re)introduction.md",
-    "Exercise 1",
-    "Chatbot 1",
-    "Food Suggestion Bot",
-    "input_and_output",
-    "loop_practice_py",
-    "Conditionals.md",
     "Syntax errors.md",
-    "Untitled 1.canvas",
-    "2023-10-10.md",
+    "Natural Language Processing.md",
+    "Markdown (Re)introduction.md",
+    "Conditionals.md",
     "Boolean.md",
     "String Methods.md",
+    "starwarsbot.md",
+    "Untitled 1.canvas",
+    "2023-10-10.md",
     "Untitled.canvas",
     "2023-09-27.md",
-    "warmup.py",
-    "warmup",
     "2023-09-20.md"
   ]
 }

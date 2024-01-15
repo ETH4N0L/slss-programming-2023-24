@@ -1,0 +1,32 @@
+# Best_pizza_code
+# Author: Ethan C
+# Date: Dec 19
+
+from PIL import Image
+
+def is_light(pixel: tuple) -> bool:
+    # Check the average pixel colour
+    average = sum(pixel) / len(pixel)
+    # Check if the average is greater than or equal to 128
+    return average >= 128
+
+def convert_to_grayscale(im):
+    # Get the pixel data
+    pixels = list(im.getdata())
+
+    # Convert each pixel based on whether it is light or dark
+    new_pixels = [(255, 255, 255) if is_light(pixel) else (0, 0, 0) for pixel in pixels]
+
+    # Create a new image with the modified pixel data
+    new_im = Image.new('RGB', im.size)
+    new_im.putdata(new_pixels)
+
+    return new_im
+
+# Open the image
+with Image.open("./Images/best_pizza.jpg") as im:
+    # Convert the image to grayscale
+    grayscale_im = convert_to_grayscale(im)
+
+# Save the new image
+grayscale_im.save("./Images/grayscale_pizza.jpg")
