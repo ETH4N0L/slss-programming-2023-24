@@ -1,3 +1,5 @@
+# World Traveller Bot
+# Author: Ethan C
 
 # Initialize a list of continents
 continents = ["Africa", "Antarctica", "Asia", "Europe", "North America", "South America", "Australia"]
