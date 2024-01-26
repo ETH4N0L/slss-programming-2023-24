@@ -1,5 +1,5 @@
 # Functions Practice 
-# Author: Ubial 
+# Author: Ethan C 
 # 24 November 2023
 
 
