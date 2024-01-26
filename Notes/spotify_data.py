@@ -47,7 +47,17 @@ def find_all_songs(artist: str) -> list:
                         line['song_title'],
                         line['danceability']
                         ))
+                    line_num += 1
                     
         return songs
 
 drake_songs = find_all_songs("drake")
+ed_sheeran_songs = find_all_songs("ed sheeran")
+kendrick_songs = find_all_songs("kendrick")
+
+# Print only the drake songs
+# that have a danceability of .5 or higher
+
+for song in kendrick_songs:
+    if float(song[-1]) >= 0.5:
+        print(song)
